@@ -77,7 +77,7 @@ The goal: **help businesses understand churn patterns and design data-driven ret
 ## 📸 Sample Visualizations
 *(Add screenshots from your notebook here – e.g., churn distribution pie chart, churn by contract, heatmap, etc.)*  
 
-![Churn Distribution](churn_dist(1).png)  
+![Churn Distribution](churn_dist.png)  
 ![Churn by Contract](churn_bycont.png)  
 
 ---
