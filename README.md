@@ -87,7 +87,7 @@ The project combines **Exploratory Data Analysis (EDA)**, **feature engineering*
 ## 📸 Sample Visualizations
 ![Churn Distribution](churn_dist.png)  
 ![Churn by Contract](churn_bycont.png)  
-![Confusion Matrix](confusion_matrix.png)  
+![Confusion Matrix](Confusion_mat.png)  
 
 ---
 
