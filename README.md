@@ -43,8 +43,39 @@ The project combines **Exploratory Data Analysis (EDA)**, **feature engineering*
 6. 🧪 **Data Split**  
    - Train-Test split for model evaluation.  
 
-7. 🤖 **Model Training**  
-   - Logistic Regression model fitted on processed data.  
+7 🤖 **Model Training**
+
+After data preprocessing and feature engineering, two ensemble models were trained for churn prediction:
+
+1. **Random Forest Classifier**  
+2. **XGBoost Classifier**
+
+Both models were fine-tuned using **hyperparameter optimization** with **Stratified K-Fold Cross Validation** and **Grid/Random Search**, ensuring balanced performance and robust generalization.
+
+---
+
+## 📈 **Model Performance Comparison**
+
+| Model          | Accuracy | Recall  | F1 Score | ROC-AUC |
+|----------------|-----------|----------|-----------|----------|
+| Random Forest  | 0.7913    | 0.6595   | 0.6260    | 0.8468   |
+| **XGBoost**    | 0.7779    | **0.7158** | **0.6305** | **0.8480** |
+
+### ✅ Final Model: **XGBoost Classifier**
+
+Although Random Forest achieved slightly higher **accuracy**, the **XGBoost model** outperformed it in **recall**, **F1 score**, and **ROC-AUC**, offering a better balance between precision and sensitivity — crucial in churn prediction tasks.
+
+---
+
+## 🎯 **Why Recall Matters in Churn Prediction**
+
+In churn analysis, **recall** is the most important metric because:
+- It measures how well the model identifies **true churners** (customers likely to leave).  
+- Missing churners (false negatives) leads to **lost customers and revenue**.  
+- A higher recall ensures the business can proactively **target at-risk customers** for retention.  
+
+Hence, **XGBoost** is selected as the final production model for churn prediction and customer retention strategy development.
+
 
 8. 📈 **Model Evaluation**  
    - Metrics: Accuracy, Precision, Recall, F1-Score.  
