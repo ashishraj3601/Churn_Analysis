@@ -67,7 +67,7 @@ Although Random Forest achieved slightly higher **accuracy**, the **XGBoost mode
 
 ---
 
-## 🎯 **Why Recall Matters in Churn Prediction**
+8 🎯 **Why Recall Matters in Churn Prediction**
 
 In churn analysis, **recall** is the most important metric because:
 - It measures how well the model identifies **true churners** (customers likely to leave).  
@@ -76,10 +76,6 @@ In churn analysis, **recall** is the most important metric because:
 
 Hence, **XGBoost** is selected as the final production model for churn prediction and customer retention strategy development.
 
-
-8. 📈 **Model Evaluation**  
-   - Metrics: Accuracy, Precision, Recall, F1-Score.  
-   - Confusion matrix visualization.  
 
 9. 💡 **Insights & Recommendations**  
    - Identified churn drivers (contract type, tenure, pricing, security services).  
@@ -97,13 +93,6 @@ Hence, **XGBoost** is selected as the final production model for churn predictio
 
 ---
 
-## 🧮 Model Performance (Logistic Regression)
-- **Accuracy:** `81.26%`  
-- **Precision (Non-Churners):** `85%`  
-- **Recall (Churners):** `57%`  
-- **Conclusion:** Strong at predicting non-churners, but some churn cases are missed.  
-
----
 
 ## 🧭 Recommendations
 1. Convert **month-to-month customers** into long-term contracts via loyalty offers.  
